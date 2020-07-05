@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProItalic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProBold';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProBlack';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Black.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProBlackItalic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProBoldItalic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProExtraLight';
+  src: url('../fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProExtraLightItalic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProLight';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProLightItalic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProSemiBold';
+  src: url('../fonts/SourceSansPro/SourceSansPro-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansProSemiBoldItalic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'SourceSansPro', -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  min-height: 100vh;
+}
+
+.flex-center {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}

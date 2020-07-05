@@ -1,9 +1,11 @@
 <template>
-  <div id="app">
+  <fragment>
     <app-header />
-      <router-view />
+      <main class="container">
+        <router-view />
+      </main>
     <app-footer />
-  </div>
+  </fragment>
 </template>
 <script>
 import Header from '@/components/common/Header.vue';

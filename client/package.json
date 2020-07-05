@@ -13,6 +13,7 @@
     "register-service-worker": "^1.7.1",
     "spectre.css": "^0.5.9",
     "vue": "^2.6.11",
+    "vue-fragment": "^1.5.1",
     "vue-meta": "^2.4.0",
     "vue-router": "^3.3.4",
     "vuex": "^3.5.1",

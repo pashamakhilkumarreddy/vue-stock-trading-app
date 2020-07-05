@@ -3,6 +3,8 @@ import Router from 'vue-router';
 
 import Home from '@/views/Home.vue';
 
+const PageNotFound = () => import('@/views/PageNotFound.vue');
+
 Vue.use(Router);
 
 export default new Router({
@@ -12,5 +14,9 @@ export default new Router({
     component: Home,
     name: 'index',
     alias: ['/home', '/index'],
+  }, {
+    path: '*',
+    component: PageNotFound,
+    name: 'page-not-found',
   }],
 });

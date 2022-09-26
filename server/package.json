@@ -26,7 +26,7 @@
     "helmet": "^3.23.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.23",
-    "pm2": "^4.4.0",
+    "pm2": "^5.2.0",
     "polka": "^1.0.0-next.11",
     "response-time": "^2.3.2"
   },
